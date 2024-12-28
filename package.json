@@ -1,0 +1,30 @@
+{
+  "name": "bill-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npm install",
+    "dev": "nodemon .",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adizafri2000/bill-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adizafri2000/bill-scraper/issues"
+  },
+  "homepage": "https://github.com/adizafri2000/bill-scraper#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.47.10",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9",
+    "puppeteer": "^23.11.1"
+  }
+}
